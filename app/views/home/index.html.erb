@@ -1,0 +1,385 @@
+<div class="home-logo">
+    <%= image_tag "41studio-logo.jpg", id: "logo-header" %>
+</div>
+<div id="header" class="header"></div>
+<div class="container-fluid">
+  <div class="navbar">
+    <a id="home-link" class="hvr-underline-from-center" href="home"><h5>Home</h5></a>
+    <a href="services" class="hvr-underline-from-center orange-underline"><h5>Services</h5></a>
+    <a href="portofolio" class="hvr-underline-from-center"><h5>Portofolios</h5></a>
+    <a href="job" class="hvr-underline-from-center"><h5>Jobs</h5></a>
+    <a href="about" class="hvr-underline-from-center"><h5>About Us</h5></a>
+    <a href="contact" class="hvr-underline-from-center"><h5>Contact</h5></a>
+    <a id="blog-link" class="hvr-underline-from-center" href="article"><h5>Blog</h5></a>
+  </div>
+  <div class="row highlight">
+    <div class="col-xs-6 no-pad">
+      <div class="content1-left">
+        <h2 class="text-center content1-left-title bold">Ruby On Rails Development Company in Indonesia</h2>
+        <h4 id="text-left-content1" class="text-center">41studio is Ruby On Rails Outsourcing Company in Indonesia that leverages the cutting edge technology to rapidly build web or mobile applications as core of our services. We love to work in agile way for a whole host of clients to improve their business efficiency and provide a competitive advantage.</h4>
+        <button class="btn-default" id="service-button">
+          <h4 class="bold">OUR SERVICE</h4>
+        </button>
+        <%= image_tag "circle-logo.png", id: "content1-logo" %>
+      </div>
+    </div>
+    <div class="col-xs-6 no-pad bg-code">
+      <%= image_tag "support.png", id: "support-image" %>
+      <div class="owl-carousel owl-carousel-header owl-theme">
+        <div class="item"><h1 class="bold">IDEAS</h1></div>
+        <div class="item"><h4>2</h4></div>
+        <div class="item"><h4>3</h4></div>
+        <div class="item"><h4>4</h4></div>
+      </div>
+    </div>
+  </div>
+  <div class=content-2">
+    <div id="web-part" class="row">
+      <div class="col-xs-5">
+        <%= image_tag "web.png", id: "web-image" %>
+        <div class="sosmed-logo-wrapper">
+          <a href="http://www.instagram.com">
+            <%= image_tag "Instagram.png", class: "logo-sosmed" %>
+          </a>
+          <a href="http://www.linkedin.com">
+            <br><%= image_tag "linkedin.png", class: "logo-sosmed" %>
+          </a>
+          <a href="https://plus.google.com">
+            <br><%= image_tag "G.png", class: "logo-sosmed" %>
+          </a>
+          <a href="http://www.twitter.com">
+            <br><%= image_tag "Twitter.png", class: "logo-sosmed" %>
+          </a>
+          <a href="http://www.facebook.com">
+            <br><%= image_tag "facebook.png", class: "logo-sosmed" %>
+          </a>
+        </div>
+        <h1 id="web-text" class="text-center bold">WEB</h1>
+      </div>
+      <div class="col-xs-7">
+        <h3 id="web-content" class="text-center">As ruby on rails agency we build elegant and functional web solutions using Ruby On Rails, React / Redux, Angular and more.</h3>
+  
+        <%= button_tag "FIND OUT", {id: "web-button", class: "btn-default findout-button findout-text" } %>
+      </div>
+    </div>
+    <div id="mobile-part" class="row hide-content">
+      <div class="col-xs-5">
+        <%= image_tag "mobile.png", id: "mobile-image" %>
+        <h1 id="mobile-text" class="text-center bold">MOBILE</h1>
+      </div>
+      <div class="col-xs-7">
+        <h3 id="mobile-content" class="text-center">With us you can create the mobile applications of your own and give you a great experience in exploring the technology through your hands. There are many mobile applications you can rely on for your daily and business activities, such as social media, travel, translator, GPS, or even your mobile version of your website. Our mobile developer team are expert with iOS Development, Android Development as well as with React-Native Development for hybrid mobile app development. Tell us your plan and we'll make it happen.</h3>
+        <button id="mobile-button" class="btn-default findout-button mobile-button">
+          <h4 class="findout-text">FIND OUT</h4>
+        </button>
+      </div>
+    </div>
+    <div id="desktop-part" class="row hide-content">
+      <div class="col-xs-5">
+        <%= image_tag "desktop.png", id: "desktop-image" %>
+        <h1 id="desktop-text" class="text-center bold">DESKTOP</h1>
+      </div>
+      <div class="col-xs-7">
+        <h3 id="desktop-content" class="text-center">We build cross platform desktop apps (Mac, Windows and Linux) for all your business needs with JavaScript, HTML & CSS using Electron.</h3>
+        <button id="desktop-button" class="btn-default findout-button desktop-button">
+          <h4 class="findout-text">FIND OUT</h4>
+        </button>
+      </div>
+    </div>
+    <div id="design-part" class="row hide-content">
+      <div class="col-xs-5">
+        <%= image_tag "design.png", id: "design-image" %>
+        <h1 id="design-text" class="text-center bold">UI/UX DESIGN</h1>
+      </div>
+      <div class="col-xs-7">
+        <h3 id="design-content" class="text-center">The look of your website is the mirror of your whole business and your offers, it's reflecting your creativity and will make you looked different from others</h3>
+        <button id="design-button" class="btn-default findout-button design-button">
+          <h4 class="findout-text">FIND OUT</h4>
+        </button>
+      </div>
+    </div>
+    <br>
+    <div id="category-bar" class="row category-bar">
+      <div class="col-xs-2"></div>
+      <div class="col-xs-2 text-center">
+        <div id="web-arrow" class="arrow-up"></div>
+        <button id="web" class="category-button padding-top-9"><h4 class="bar-text">Web</h4></button>
+      </div>
+      <div class="col-xs-2 text-center">
+        <div id="mobile-arrow" class="arrow-up"></div>
+        <button id="mobile" class="category-button padding-top-9"><h4 class="bar-text">Mobile</h4></button>
+      </div>
+      <div class="col-xs-2 text-center">
+        <div id="desktop-arrow" class="arrow-up"></div>
+        <button id="desktop" class="category-button padding-top-9"><h4 class="bar-text">Desktop</h4></button>
+      </div>
+      <div class="col-xs-2 text-center">
+        <div id="design-arrow" class="arrow-up"></div>
+        <button id="design" class="category-button padding-top-9"><h4 class="bar-text">UI/UX Design</h4></button>
+      </div>
+      <div class="col-xs-2"></div>
+    </div>
+  </div>
+  <div class="row content-3">
+    <div class="col-xs-12">
+    <h2 class="size-30" id="business-text"><b>Business Process</b></h2>
+    <hr class="blue-line-home">
+    <h5 id="business-content" class="text-center">In order to assist and serve your needs in custom software development with rails we offer two types of business models which could be options for you depend on the project scale and or its budget. Find out more about our business model here :</h5>
+    </div>
+  </div>
+  <div class="row content-3">
+    <div class="col-xs-6">
+      <h3 id="project-based-text" class="text-center"><b>Project Based</b></h3>
+      <%= image_tag "project-based.png", id: "project-based-image" %>
+      <button class="btn-default learn-more-button">LEARN MORE</button>
+    </div>
+    <div class="col-xs-6">
+      <h3 id="extended-team-text" class="text-center"><b>Extended Team</b></h3>
+      <%= image_tag "extended-team.png", id: "extended-team-image" %>
+      <button class="btn-default learn-more-button red-button">LEARN MORE</button>
+    </div>
+  </div>
+  <div class="row content-4">
+    <h2 id="development-text"><b>Development Process
+      <hr class="green-line"></b></h2>
+    <h5 class="text-center" id="development-content">Once the business processes above passed then we go through this phase. In this development process phase we implement Agile Software Development method which known as Scrum to aim emphasizes teamwork, client collaboration, accountability and iterative progress to produce great software products for our clients. In general your software development process would be like on the following flow :</h5>
+    <%= image_tag "development-process.png", id: "development-process-image" %>
+  </div>
+  <button class="btn-default learn-more-button purple-button">LEARN MORE</button>
+  <h1 id="saying-text" class="text-center bold">What Are They Saying</h1>
+  <div class="row">
+    <div class="col-xs-12 profile-wrapper">
+    <div class="content-5">
+    <div id="people1-part" class="row">
+      <div class="col-xs-5">
+        <%= image_tag "mark.jpg", id: "people1-image" %>
+      </div>
+      <div class="col-xs-7">
+        <h1 id="people1-name" class="bold">Mark Feinbergh, of Uruut US</h1>
+        <hr class="yellow-line">
+        <h3 id="people1-content">They ruby developer is now a true part of our team and expect will remain so for a very long time. We will have plenty of work from launch on out and they will be our first and only choice to perform that work. they’re fantastic!</h3>
+      </div>
+    </div>
+    <div id="people2-part" class="row hide-content">
+      <div class="col-xs-5">
+        <%= image_tag "mark.jpg", id: "people2-image" %>
+      </div>
+      <div class="col-xs-7">
+        <h1 id="people2-name" class="bold">William Flanagan</h1>
+        <hr class="yellow-line">
+        <h3 id="people2-content">They ruby on rails team have worked with me for the better part of 3 years, over several iterations of my product. Always working hard, taking the time to understand details, they were and hopefully will be a continued core part of my team. I came to this ruby on rails company with just a vision and they made it a reality. I owe a great deal to this company. If you need a true technical partner, I'd strongly strongly recommend 41studio.</h3>
+      </div>
+    </div>
+    <div id="people3-part" class="row hide-content">
+      <div class="col-xs-5">
+        <%= image_tag "mark.jpg", id: "people3-image" %>
+      </div>
+      <div class="col-xs-7">
+        <h1 id="people3-name" class="bold">Christopher K</h1>
+        <hr class="yellow-line">
+        <h3 id="people3-content">41studio is the best ror developer team that went above and beyond the call of duty during our project. Their highest priority is customer satisfaction!</h3>
+      </div>
+    </div>
+    <div id="people4-part" class="row hide-content">
+      <div class="col-xs-5">
+        <%= image_tag "mark.jpg", id: "people4-image" %>
+      </div>
+      <div class="col-xs-7">
+        <h1 id="people4-name" class="bold">Mark Feinbergh</h1>
+        <hr class="yellow-line">
+        <h3 id="people4-content">They ruby on rails team have worked with me for the better part of 3 years, over several iterations of my product. Always working hard, taking the time to understand details, they were and hopefully will be a continued core part of my team. I came to this ruby on rails company with just a vision and they made it a reality. I owe a great deal to this company. If you need a true technical partner, I'd strongly strongly recommend 41studio.</h3>
+      </div>
+    </div>
+    <br>
+    <div id="people-bar" class="row category-bar">
+      <div class="col-xs-2"></div>
+      <div class="col-xs-2 text-center">
+        <div id="people1-arrow" class="arrow-up blue-arrow"></div>
+        <button id="people1" class="category-button padding-top-9"><h4 class="bar-text">Mark Feinbergh</h4></button>
+      </div>
+      <div class="col-xs-2 text-center">
+        <div id="people2-arrow" class="arrow-up"></div>
+        <button id="people2" class="category-button padding-top-9"><h4 class="bar-text">William Flanagan</h4></button>
+      </div>
+      <div class="col-xs-2 text-center">
+        <div id="people3-arrow" class="arrow-up"></div>
+        <button id="people3" class="category-button padding-top-9"><h4 class="bar-text">Christopher K</h4></button>
+      </div>
+      <div class="col-xs-2 text-center">
+        <div id="people4-arrow" class="arrow-up"></div>
+        <button id="people4" class="category-button padding-top-9"><h4 class="bar-text">Mark Feinbergh</h4></button>
+      </div>
+      <div class="col-xs-2"></div>
+    </div>
+  </div>
+    </div>      
+  </div>
+  
+
+  <div class="content-6">
+    <h2 class="text-center" id="blog-text">Fresh Blog Post</h2>
+    <hr class="red-line">
+    <div class="article-part">
+      <div class="row">
+        <div class="col-xs-2"></div>
+        <div class="col-xs-3">
+          <div class="row">
+            <div class="col-xs-4">
+              <h2 class="blog-place"></h2>
+            </div>
+            <div class="col-xs-8">
+              <h4 class="title-article bold">CommunicAsia 2018</h4>
+              <h5 class="size-15">Admin</h5>
+              <br>
+              <br>
+              <h5>30 Oct 2018</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-1"></div>
+        <div class="col-xs-1"></div>
+        <div class="col-xs-3">
+          <div class="row">
+            <div class="col-xs-4">
+              <h2 class="blog-place"></h2>
+            </div>
+            <div class="col-xs-8">
+              <h4 class="title-article bold">CommunicAsia 2018</h4>
+              <h5 class="size-15">Admin</h5>
+              <br>
+              <br>
+              <h5>30 Oct 2018</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-2"></div>
+      </div>
+      <div class="row">
+        <div class="col-xs-2"></div>
+        <div class="col-xs-3">
+          <div class="row">
+            <div class="col-xs-4">
+              <h2 class="blog-place"></h2>
+            </div>
+            <div class="col-xs-8">
+              <h4 class="title-article bold">CommunicAsia 2018</h4>
+              <h5 class="size-15">Admin</h5>
+              <br>
+              <br>
+              <h5>30 Oct 2018</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-1"></div>
+        <div class="col-xs-1"></div>
+        <div class="col-xs-3">
+          <div class="row">
+            <div class="col-xs-4">
+              <h2 class="blog-place"></h2>
+            </div>
+            <div class="col-xs-8">
+              <h4 class="title-article bold">CommunicAsia 2018</h4>
+              <h5 class="size-15">Admin</h5>
+              <br>
+              <br>
+              <h5>30 Oct 2018</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-2"></div>
+      </div>
+      <div class="row">
+        <div class="col-xs-2"></div>
+        <div class="col-xs-3">
+          <div class="row">
+            <div class="col-xs-4">
+              <h2 class="blog-place"></h2>
+            </div>
+            <div class="col-xs-8">
+              <h4 class="title-article bold">CommunicAsia 2018</h4>
+              <h5 class="size-15">Admin</h5>
+              <br>
+              <br>
+              <h5>30 Oct 2018</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-1"></div>
+        <div class="col-xs-1"></div>
+        <div class="col-xs-3">
+          <div class="row">
+            <div class="col-xs-4">
+              <h2 class="blog-place"></h2>
+            </div>
+            <div class="col-xs-8">
+              <h4 class="title-article bold">CommunicAsia 2018</h4>
+              <h5 class="size-15">Admin</h5>
+              <br>
+              <br>
+              <h5>30 Oct 2018</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-2"></div>
+      </div>
+    </div>
+  </div>
+  <div class="row content-7">
+    <div id="black-background" class="col-xs-6">
+      <h3 class="text-center title-content7">What We Have Done</h3><h5 class="text-center size-15 bottom-text">Listen. Explore. Deliver! As an agile web development with rails we solve Hire Ruby On Rails Expert Now! hard problems with our clients everyday and we love to create their great ideas into the stunning functionally products. Find out more about our past work to see how we had help give solutions to our clients like you.</h5>
+      <button class="btn-default learn-more-button transparent margin-top-20 bottom-button">LEARN MORE</button>
+    </div>
+    <div id="blue-background" class="col-xs-6">
+      <h3 class="text-center title-content7">Hire Ruby On Rails Expert Now!</h3>
+      <h5 class="text-center center size-15 line-height-30 font-helvetica">Already have remarkable ideas to be built? Let’s get connect! Do not let other people preceded your ideas..</h5>
+      <button class="btn-default learn-more-button transparent margin-top-20 bottom-button">LEARN MORE</button>
+    </div>
+  </div>
+  <button class="back-top">
+    <a href="#header">
+      <span class="glyphicon glyphicon-arrow-up"></span>
+    </a>
+  </button>
+  <div class="row footer">
+    <div class="col-xs-6 col-sm-8">
+      <h4 class="copyright">&copy Copyright 2018 41Studio All Right Reserved</h4>
+    </div>
+    <div class="col-xs-6"></div>
+  </div>
+</div>
+
+<div class="admin-chat">
+  <div id="admin-chat" class="row">
+    <div class="col-xs-12">
+      <div class="header-chat">
+        <h4 class="bold color-white admin-name">Allen Aprilia Begista</h4>
+        <button class="glyphicon glyphicon-remove close-button"></button>
+      </div>
+      <div class="body-chat">
+        <div class="row body-chat-container">
+          <div class="col-xs-3">
+            <%= image_tag "allen.jpg", id: "admin-image" %>
+          </div>
+          <div class="col-xs-9">
+            <div class="box-chat">
+              <h4>Hello, Can I Help You?</h4>
+            </div>
+          </div>
+        </div>
+        <div class="typing-message">
+          <div class="row">
+            <div class="col-xs-8">
+              <input id="typing-text" type="text" name="typing" placeholder ="Type your message...">
+            </div>
+            <div class="col-xs-2">
+              <%= image_tag "clip.png", class: "typing-fitur margin-left5" %>
+            </div>
+            <div class="col-xs-2">
+              <%= image_tag "send.png", class: "typing-fitur" %>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
