@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  root 'home#index'
   resources :home, only: [:index]
   resources :services, only: [:index]
   resources :portofolio, only: [:index]
@@ -8,4 +9,6 @@ Rails.application.routes.draw do
   resources :contact, only: [:index]
   resources :maps, only: [:index]
   resources :article, only: [:index]
+
+
 end
