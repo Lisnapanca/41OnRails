@@ -1,0 +1,140 @@
+.sosmed-logo-wrapper-about
+  = image_tag "Instagram.png", class: "logo-sosmed"
+  br
+  = image_tag "linkedin.png", class: "logo-sosmed"
+  br
+  = image_tag "G.png", class: "logo-sosmed"
+  br
+  = image_tag "Twitter.png", class: "logo-sosmed"
+  br
+  = image_tag "facebook.png", class: "logo-sosmed"
+.home-logo
+  = image_tag "41studio-logo.jpg", id: "header-logo"
+#header.header
+.container-fluid
+  .navbar.navbar-about
+    a#home-link.hvr-underline-from-center[href="home.html"]
+      h2
+        | Home
+    a.hvr-underline-from-center[href="service.html"]
+      h2
+        | Services
+    a.hvr-underline-from-center[href="portofolio.html"]
+      h2
+        | Portofolios
+    a.hvr-underline-from-center[href="job.html"]
+      h2
+        | Jobs
+    a.hvr-underline-from-center[href="about.html"]
+      h2
+        | About Us
+    a.hvr-underline-from-center[href="contact.html"]
+      h2
+        | Contact
+    a#blog-link.hvr-underline-from-center[href="article.html"]
+      h2
+        | Blog
+  .jumbotron-about
+    h2.jumbotron-title-about.size-30.centered.bold.title-nunito
+      | Software Development Company in Indonesia
+    hr.jumbotron-line
+    h5.jumbotron-content.size-15.content-helvetica
+      | Which focusing on ruby on rails, nodejs, ios and android development. We practicing agile methodologies on every software development project we build. As an agile software development company, we are expert in Test-Driven Development (TDD), Behavior-Driven Development (BDD), User-Centered Design, Pair Programming and write the elegant code following the Best Practice standard and Convention Over Configuration concept.
+    = image_tag "circle-logo.png", id: "jumbotron-logo"
+    = image_tag "support.png", id: "support-logo"
+  h2#title.text-center.bold.title-nunito
+    | About Us
+  hr.green-line-about
+  h5.text-center.about-desc.size-15.content-helvetica
+    | 41studio is Agile Ruby On Rails Development Company & Consultancy that leverages the cutting edge technology to rapidly build web, mobile and desktop applications. We love to work in agile way for a whole host of clients to improve their business efficiency and provide a competitive advantage.
+  = image_tag "company.png", id: "company-profile"
+  button.btn-default.transparent.btn-filter-about.yellow
+    | Company Profile
+  h2.text-center.bold.size-30.title-nunito
+    | Meet Our Ruby On Rails Expert & Team
+  hr.red-line
+  h4#desc-team.text-center.margin-400.content-helvetica
+    | We believe in every big project, there is solid and reliable people. Get to know our top-notch ruby on rails developers & team behind of every awesome product creations.
+  .row
+    .col-md-6
+      = image_tag "android-dev.png", class: "employee-profile"
+    .col-md-6.profile
+      h2.bold.size-30.title-nunito
+        | Lisna Panca Wiguna
+      hr.green-line-about.no-margin-left
+      h4.bold.title-nunito
+        | Front-end
+      h4.content-helvetica
+        | Lorem ipsum dolor sit amet, consectetur adipisicing elit
+      h4.bold.title-nunito
+        | Technology
+      h4.content-helvetica
+        | Lorem ipsum dolor sit amet, consectetur adipisicing elit
+      h4.bold.title-nunito
+        | Follow Me on
+      = image_tag "facebook-grey.png", class: "sosmed-image"
+      = image_tag "linkedin-grey.png", class: "sosmed-image"
+      = image_tag "instagram-grey.png", class: "sosmed-image"
+  .row.purple-bar
+    .col-md-2
+    .col-md-2
+      .arrow-up-about
+      h3.bold.margin-bar
+        | Employee Name
+    .col-md-2
+      .arrow-up-about.another-triangle
+      h3.bold.mar-top-10
+        | Employee Name
+    .col-md-2
+      .arrow-up-about.another-triangle
+      h3.bold.mar-top-10
+        | Employee Name
+    .col-md-2
+      .arrow-up-about.another-triangle
+      h3.bold.mar-top-10
+        | Employee Name
+    .col-md-2
+      .arrow-up-about.another-triangle
+      h3.bold.mar-top-10
+        | Employee Name
+  .content-7-about
+    div
+      h3.size-30.text-center.title-content7-about.bold
+        | We're Hiring!!
+      hr.blue-line-about
+      h5#content-bottom.size-15.text-center.margin-350
+        | Our Ruby On Rails Team is consisted of the friendly and amazing people. Smart is definitely necessary, but crazy and fun also needed as only crazy people can buzz crazy idea! Our team has opportunity to take your competencies grow up. Not only work with our team but also learn and thrive together with us.
+      button.btn-default.learn-more-button-about
+        | APPLY NOW
+  button.back-top
+
+    a[href="#header"]
+      span.glyphicon.glyphicon-arrow-up
+  .row.footer
+    .col-md-6
+      h4.bold.size-20
+        | &copy Copyright 2018 41Studio All Right Reserved
+    .col-md-6
+.admin-chat-about
+  #admin-chat.row
+    .col-xs-12
+      .header-chat
+        h4.bold.color-white.admin-name
+          | Allen Aprilia Begista
+        button.glyphicon.glyphicon-remove.close-button
+      .body-chat
+        .row.body-chat-container
+          .col-md-3
+            = image_tag "allen.jpg", id: "admin-image"
+          .col-md-9
+            .box-chat
+              h4
+                | Hello, Can i help you?
+        .typing-message
+          .row
+            .col-md-8
+              input#typing-text[type="text" name="typing" placeholder="Type your message..."]
+            .col-md-2
+              = image_tag "clip.png", class: "typing-fitur margin-left5"
+            .col-md-2
+              = image_tag "send.png", class: "typing-fitur"

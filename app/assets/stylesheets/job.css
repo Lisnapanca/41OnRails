@@ -95,6 +95,7 @@ body{
   font-weight: bold;
   color: #707070;
   outline: 0!important;
+  margin-left: 20px;
 }
 #android-dev{
   float: right;
@@ -316,7 +317,7 @@ body{
   background: #fff;
   z-index: 8;
 }
-.back-top{
+.back-top-job{
   position: absolute;
   border-radius: 50%;
   border: none;

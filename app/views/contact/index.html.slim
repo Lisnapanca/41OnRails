@@ -1,0 +1,187 @@
+.sosmed-logo-wrapper
+  = image_tag "Instagram.png", class: "logo-sosmed"
+  br
+  = image_tag "linkedin.png", class: "logo-sosmed"
+  br
+  = image_tag "G.png", class: "logo-sosmed"
+  br
+  = image_tag "Twitter.png", class: "logo-sosmed"
+  br
+  = image_tag "facebook.png", class: "logo-sosmed"
+.home-logo
+  = image_tag "41studio-logo.jpg", id: "header-logo"
+#header.header
+.container-fluid
+  .navbar.contact-navbar
+    a#home-link.hvr-underline-from-center[href="home.html"]
+      h2
+        | Home
+    a.hvr-underline-from-center[href="service.html"]
+      h2
+        | Services
+    a.hvr-underline-from-center[href="portofolio.html"]
+      h2
+        | Portofolios
+    a.hvr-underline-from-center[href="job.html"]
+      h2
+        | Jobs
+    a.hvr-underline-from-center[href="about.html"]
+      h2
+        | About Us
+    a.hvr-underline-from-center[href="contact.html"]
+      h2
+        | Contact
+    a#blog-link.hvr-underline-from-center[href="article.html"]
+      h2
+        | Blog
+  .jumbotron-contact
+    h2#contact-title.content-helvetica
+      | Contact
+    .text-contact
+      h2.text-center.size-30.bold.title-nunito
+        | Contact Info
+      hr.blue-line-contact
+      .row
+        .col-md-6
+          = image_tag "clock.png", id: "clock-image"
+          h4#time.text-info.color-black
+            | 8:00 AM - 5:00 PM
+          = image_tag "call.png", id: "call-image"
+          h4#call.text-info
+            | +62 819 3207 8901
+          = image_tag "call-2.png", id: "call2-image"
+          h4#call2.text-info
+            | +62 22 2066 0068
+        .col-md-6
+          = image_tag "email.png", id: "email-image"
+          h4#email-text.content-helvetica
+            | hello@41studio.com
+          = image_tag "place.png", id: "place-image"
+          h4#place-text.content-helvetica
+            | 5th Building 
+            br
+            | Setra Mas Residence 
+            br
+            | Cimahi 40525 
+            br
+            | West Java - Indonesia
+    = image_tag "circle-logo.png", id: "jumbotron-logo"
+    = image_tag "support.png", id: "support-logo"
+  .maps-area
+    iframe.maps[src="maps.html" name="targetframe" allowtransparency="true" scrolling="no" frameborder="0"]
+
+  h2.text-center.size-30.get-in-touch.bold.title-nunito
+    | Get In Touch
+  hr.green-line
+  h5.text-center.margin-450.line-height-25.size-15.content-helvetica
+    | Already have an idea of what are you going to do with us? Fill the form below and our team will get back in touch with you within 24 hours with perfect suggestions and answers.
+  .button-filter
+    button.blue-button.btn-default.btn-filter
+      | Talk Project
+    button.btn-default.transparent.btn-filter.green-button
+      | Apply Position
+    button.btn-default.transparent.btn-filter.red-button
+      | Say Hello
+  .row
+    .col-md-6
+      form.form-contact.content-helvetica
+        input.form-data[type="text" name="name" placeholder="Name"]
+        br
+        br
+        input.form-data[type="text" name="email" placeholder="Email"]
+        br
+        br
+        input.form-data[type="text" name="phone" placeholder="Phone"]
+        br
+        br
+        input.form-data[type="text" name="company" placeholder="Company Name (Optional)"]
+        br
+        br
+        input.form-data[type="text" name="website" placeholder="Website URL"]
+        br
+        br
+        input.form-data[type="text" name="find" placeholder="Where You Find Us"]
+    .col-md-6
+      form.content-helvetica
+        input.form-data[type="text" name="plan" placeholder="Plan to Start (Optional)"]
+        br
+        br
+        input.form-data[type="text" name="budget" placeholder="Budget"]
+        br
+        br
+        h4#requirement-text
+          | Requirement Skills
+        label.container.size-15.padding-top-3
+          |  Desktop Development 
+          input[type="checkbox" checked="checked"]
+          span.checkmark
+        br
+        br
+        label.container.size-15
+          |  Web Development 
+          input[type="checkbox" checked="checked"]
+          span#web-checkmark.checkmark
+        br
+        br
+        label.container.size-15.padding-top-3
+          |  Mobile Development 
+          input[type="checkbox" checked="checked"]
+          span#mobile-checkmark.checkmark
+        br
+        br
+        label.container.size-15
+          |  Web Design 
+          input[type="checkbox" checked="checked"]
+          span#design-checkmark.checkmark
+  .row.content-helvetica
+    .col-md-2
+    .col-md-8
+      form
+        input.form-data.message[type="text" name="message" placeholder="Tell us in short about your project"]
+        br
+        br
+    .col-md-2
+  .row
+    .col-md-6
+      form.form-contact
+        input.form-data[type="text" name="attachment" placeholder="Attachment"]
+    .col-md-6
+      .row.button-contact.title-nunito
+        .col-md-6
+          button.btn-left
+            | Browse File
+        .col-md-6
+          button.btn-right
+            | SUBMIT
+  button.back-top
+
+    a[href="#header"]
+      span.glyphicon.glyphicon-arrow-up
+  .row.footer
+    .col-md-6
+      h4.bold.size-20.title-nunito
+        | &copy Copyright 2018 41Studio All Right Reserved
+    .col-md-6
+  .admin-chat-contact
+    #admin-chat.row
+      .col-xs-12
+        .header-chat
+          h4.bold.color-white.admin-name
+            | Allen Aprilia Begista
+          button.glyphicon.glyphicon-remove.close-button
+        .body-chat
+          .row.body-chat-container
+            .col-md-3
+              = image_tag "allen.jpg", id: "admin-image"
+            .col-md-9
+              .box-chat
+                h4
+                  | Hello, Can i help you?
+          .typing-message
+            .row
+              .col-md-8
+                input#typing-text[type="text" name="typing" placeholder="Type your message..."]
+              .col-md-2
+                = image_tag "clip.png", class: "typing-fitur margin-left5"
+              .col-md-2
+                = image_tag "send.png", class: "typing-fitur"

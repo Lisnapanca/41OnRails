@@ -190,7 +190,8 @@
   font-family:'Nunito';
 }
 #business-text{
-  margin-left: 542px;
+  position: relative;
+  left: 41%;
 }
 .blue-line-home{
   width: 180px;
@@ -224,8 +225,9 @@
   line-height: 30px;
 }
 #development-content{
-  margin-left: 360px;
-  margin-right: 360px;
+  position: relative;
+  left: 15%;
+  margin-right: 30%;
   margin-bottom: 50px;
   line-height: 30px;
   font-size: 15px;
@@ -611,18 +613,17 @@
   #blog-link{
     margin-right:0px;
   }
-  #web-image{
+  #web-image, #mobile-image, #desktop-image, #design-image{
+    width: 130px;
+    height: 130px;
     margin-left: 15px;
   }
-  #web-image, #mobile-image, #desktop-image, #design-image{
-    width: 150px;
-    height: 150px;
-  }
   #web-text, #mobile-text, #desktop-text, #design-text{
-    margin-left: 0px;
+    margin-left: 20px;
+    font-size: 15px;
   }
   .content1-left-title{
-    font-size: 14px;
+    font-size: 12px;
     padding-left: 15px;
   }
   #text-left-content1{
@@ -640,26 +641,102 @@
   #service-button h4{
     font-size: 8px;
   }
-  #development-content,#business-content,#web-content,#business-text,#people1-content, #people2-content, #people3-content, #people4-content,.bottom-text{
-    margin-right:0px;
-    margin-left: 0px;
+  .bar-text{
+    font-size: 10px;
+    margin-left: -10px;
+  }
+  .navbar{
+    margin-top: 60px;
+    height: 45px;
+  }
+  #design-content,#desktop-content,#mobile-content,#business-content,#web-content,#people1-content, #people2-content, #people3-content, #people4-content,.bottom-text{
+    margin-right: 15px;
+    margin-left: -15px;
     padding-left: 0px;
     padding-right: 0px;
+    font-size: 10px;
+    line-height: 15px;
+    position: relative;
+    top: -60px;
+  }
+  #business-content,#development-content{
+    top: 0px;
+    margin-left: 10px;
+    font-size: 10px;
+    line-height: 15px;
+  }
+  #business-text{
+    position: relative;
+    left: 34%;
+    font-size: 15px;
+  }
+  #mobile-content{
+    top:-90px;
+  }
+  #desktop-content{
+    top: -85px;
   }
   .owl-carousel-header h4, .owl-carousel-header h1{
-    font-size: 30px;
-  }
-  #web-content{
-    font-size: 15px;
+    font-size: 20px;
+    margin-top: 60px;
+    margin-left: -20px;
   }
   .no-pad{
     margin-top: -65px;
+  }
+  .header{
+    height: 70px;
   }
   .content1-left{
     height: 470px;
   }
   #logo-header{
-    margin-left: -17px;
+    margin-left: -15px;
+    width: 40px;
+    height: 40px;
+    margin-top: -5px;
+  }
+  .navbar-text{
+  font-size: 10px;
+  }
+  #support-image,#content1-logo{
+    width: 40px;
+    height: 40px;
+    bottom: 10px;
+    right: 10px;
+  }
+  .category-bar{
+    margin-top: -100px;
+    height: 45px;
+  }
+  .arrow-up{
+    margin-left: 22px;
+  }
+  #mobile-arrow{
+    margin-left: 22px;
+  }
+  .blue-line-home{
+    width: 90px;
+    margin-top: 10px;
+  }
+  #project-based-text,#extended-team-text{
+    font-size: 15px;
+  }
+  .learn-more-button{
+    width: 70px;
+    height: 25px;
+    font-size: 8px;
+  }
+  .green-line{
+    width: 130px;
+  }
+  #development-text{
+    font-size: 15px;
+  }
+  #development-content{
+    margin-bottom: -120px;
+    margin-right: 12%;
+    left: 5%;
   }
 }
 .container-fluid{
