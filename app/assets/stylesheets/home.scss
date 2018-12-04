@@ -47,7 +47,7 @@
 }
 .navbar{
   width: 100%;
-  margin-left: -15px;
+  margin-left: 0px;
   margin-right: auto;
   position: fixed;
   z-index: 9;
@@ -190,9 +190,10 @@
   font-family:'Nunito';
 }
 #business-text{
-  margin-left: 542px;
+  position: relative;
+  left: 41%;
 }
-.blue-line{
+.blue-line-home{
   width: 180px;
   background-color: #50a5f5;
   height: 1px;
@@ -224,8 +225,9 @@
   line-height: 30px;
 }
 #development-content{
-  margin-left: 360px;
-  margin-right: 360px;
+  position: relative;
+  left: 15%;
+  margin-right: 30%;
   margin-bottom: 50px;
   line-height: 30px;
   font-size: 15px;
@@ -369,7 +371,7 @@
   color: white;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(monitor.jpg);
+  background-image: url(image_path('monitor.jpg'));
 }
 #desc-left{
   margin-left: auto;
@@ -400,9 +402,10 @@
   font-weight: bold;
 }
 .bg-code{
-  background:linear-gradient(180deg,rgba(35,62,100,0.3),rgba(88,146,225,0.8)),url(code.jpg);
+  background:linear-gradient(180deg,rgba(35,62,100,0.3),rgba(88,146,225,0.8));
   background-size:cover;
   background-position: center;
+  background-image: url(image_path('code.jpg'));
 }
 .owl-carousel-header h4,.owl-carousel-header h1{
   font-size: 60px;
@@ -447,7 +450,7 @@
   outline: 0!important;
 }
 .content-7{
-  background:url(monitor.jpg);
+  background-image: url(image_path('monitor.jpg'));
   background-size:cover;
   background-position:center;
 }
@@ -488,7 +491,7 @@
 .copyright{
   font-size: 20px;
   font-weight: bold;
-  margin-left: 30px;
+  margin-left: -40px;
 }
 .back-top{
   position: absolute;
@@ -498,7 +501,7 @@
   height: 40px;
   background-color: white;
   right: 50%;
-  left: calc(50% - 20px);
+  left: 48.5%;
   margin-top: -20px;
   outline: 0!important;
 }
@@ -611,43 +614,268 @@
   #blog-link{
     margin-right:0px;
   }
-  #web-image{
-    margin-left: 65px;
-  }
   #web-image, #mobile-image, #desktop-image, #design-image{
-    width: 200px;
-    height: 200px;
+    width: 130px;
+    height: 130px;
+    margin-left: 15px;
   }
   #web-text, #mobile-text, #desktop-text, #design-text{
-    margin-left: 0px;
+    margin-left: 20px;
+    font-size: 15px;
   }
   .content1-left-title{
-    font-size: 15px;
+    font-size: 12px;
+    padding-left: 15px;
   }
   #text-left-content1{
-    font-size: 10px;
-    padding-left: 60px;
-    padding-right: 60px;
+    font-size: 8px;
+    padding-left: 20px;
+    padding-right: 0px;
+    line-height: 15px;
   }
   #service-button{
-        left: 25%;
+    left: 35%;
+    width: 80px;
+    height: 25px;
+    bottom: 60px;
   }
-  #development-content,#business-content,#web-content,#business-text,#people1-content, #people2-content, #people3-content, #people4-content,.bottom-text{
-    margin-right:0px;
-    margin-left: 0px;
+  #service-button h4{
+    font-size: 8px;
+  }
+  .bar-text{
+    font-size: 10px;
+    margin-left: -10px;
+  }
+  .navbar{
+    margin-top: 60px;
+    height: 45px;
+  }
+  #design-content,#desktop-content,#mobile-content,#business-content,#web-content,#people1-content, #people2-content, #people3-content, #people4-content,.bottom-text{
+    margin-right: 15px;
+    margin-left: -15px;
     padding-left: 0px;
     padding-right: 0px;
+    font-size: 10px;
+    line-height: 15px;
+    position: relative;
+    top: -60px;
+  }
+  #business-content,#development-content{
+    top: 0px;
+    margin-left: 10px;
+    font-size: 10px;
+    line-height: 15px;
+  }
+  #business-text{
+    position: relative;
+    left: 34%;
+    font-size: 15px;
+  }
+  #mobile-content{
+    top:-90px;
+  }
+  #desktop-content{
+    top: -85px;
   }
   .owl-carousel-header h4, .owl-carousel-header h1{
-    font-size: 30px;
-  }
-  #web-content{
-    font-size: 15px;
+    font-size: 20px;
+    margin-top: 60px;
+    margin-left: -20px;
   }
   .no-pad{
     margin-top: -65px;
   }
+  .header{
+    height: 70px;
+  }
   .content1-left{
     height: 470px;
   }
+  #logo-header{
+    margin-left: -15px;
+    width: 40px;
+    height: 40px;
+    margin-top: -5px;
+  }
+  .navbar-text{
+  font-size: 10px;
+  }
+  #support-image,#content1-logo{
+    width: 40px;
+    height: 40px;
+    bottom: 10px;
+    right: 10px;
+  }
+  .category-bar{
+    margin-top: -100px;
+    height: 45px;
+  }
+  .arrow-up{
+    margin-left: 22px;
+  }
+  #mobile-arrow{
+    margin-left: 22px;
+  }
+  .blue-line-home{
+    width: 90px;
+    margin-top: 10px;
+  }
+  #project-based-text,#extended-team-text{
+    font-size: 15px;
+  }
+  .learn-more-button{
+    width: 70px;
+    height: 25px;
+    font-size: 8px;
+  }
+  .green-line{
+    width: 130px;
+  }
+  #development-text{
+    font-size: 15px;
+  }
+  #development-content{
+    margin-bottom: -120px;
+    margin-right: 12%;
+    left: 5%;
+  }
+  #saying-text{
+    margin-top: 50px;
+    font-size: 15px;
+    margin-bottom: -75px;
+  }
+  #development-process-image{
+    margin-bottom: -130px;
+  }
+  #people1-image, #people2-image, #people3-image, #people4-image{
+    width: 125px;
+    height: 125px;
+    margin-right:0px;
+  }
+  #people1-name, #people2-name, #people3-name, #people4-name{
+    margin-left:0px;
+    font-size: 12px;
+    margin-top: 20px;
+  }
+  #people1-name{
+    margin-left:10px;
+  }
+  #people2-name,#people3-name,#people4-name{
+    margin-top: 100px;
+  }
+  #people-bar{
+    margin-top: -45px;
+  }
+  #people1{
+    margin-left: 0px
+  }
+  #people2{
+    margin-left: -25px;
+  }
+  #people3{
+    margin-left: -20px;
+  }
+  #people4{
+    margin-left: -20px;
+  }
+  .yellow-line{
+    width: 110px;
+    margin-left: 0px;
+    margin-top: 5px;
+  }
+  #people1-content{
+    margin-left: 0px;
+    top: -45px;
+  }
+  #people2-content{
+    top:0px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+  #people3-content,#people4-content{
+    top: -40px;
+  }
+  #people1-arrow{
+    margin-left: 45px;
+  }
+  #people2-arrow{
+    margin-left: 5px;
+  }
+  #people3-arrow{
+    margin-left: -5px;
+  }
+  #people4-arrow{
+    margin-left: 10px;
+  }
+  #people2-image,#people4-image{
+    margin-top: 100px;
+  }
+  #people3-image{
+    margin-top: 100px;
+    margin-bottom: 25px;
+  }
+  #people1-line{
+    margin-left:10px;
+  }
+  #blog-text{
+    margin-bottom: 10px;
+    margin-top: -40px;
+    font-size: 15px;
+  }
+  .red-line {
+    width: 75px;
+  }
+  .blog-place{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+  }
+  .title-article{
+    font-size: 10px;
+  }
+  .size-15{
+    font-size: 8px;
+  }
+  .date-blog{
+    margin-top: -25px;
+  }
+  .title-content7{
+    font-size: 12px;
+    margin-top: 20px;
+    margin-left: -10px;
+  }
+  .bottom-text{
+    top: 0px;
+    margin-left:22px;
+  }
+  .center{
+    padding-left: 0px;
+    padding-right: 10px;
+  }
+  .line-height-30{
+    line-height: 15px;
+  }
+  .back-top{
+    padding-left: 4px;
+    left: 47%;
+    width: 25px;
+    height: 25px;
+    margin-top: -15px;
+  }
+  .content-7{
+    height: 260px;
+  }
+  .footer{
+    height: 70px;
+  }
+  .copyright{
+    font-size: 10px;
+    margin-left: -50px;
+    margin-top: -35px;
+  }
+}
+.container-fluid{
+  padding-left: 0px;
+  padding-right: 0px;
+  overflow: hidden;
 }

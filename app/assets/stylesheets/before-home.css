@@ -371,7 +371,7 @@
   color: white;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(monitor.jpg);
+  background-image: image-url(monitor.jpg);
 }
 #desc-left{
   margin-left: auto;
