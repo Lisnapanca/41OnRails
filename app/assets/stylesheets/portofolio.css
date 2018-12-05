@@ -415,4 +415,11 @@ body{
     height: 25px;
     margin-top: -15px;
   }
+  .desc h5{
+    font-size: 8px;
+    line-height: 15px;
+  }
+  .desc{
+    margin-left: 0;
+  }
 }

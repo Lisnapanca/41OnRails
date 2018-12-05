@@ -170,7 +170,7 @@ body{
   padding: 7px;
   border:2px solid #f1f1f1;
 }
-.jumbotron-line{
+.jumbotron-line-job{
   height: 1px;
   background-color: white;
   width: 230px;
@@ -178,7 +178,7 @@ body{
   top:55%;
   left: 42%;
 }
-.jumbotron-content{
+.jumbotron-content-job{
   color: white;
   text-align: center;
   margin-left: 365px;
@@ -364,4 +364,22 @@ body{
   padding-left: 0px;
   padding-right: 0px;
   overflow: hidden;
+}
+@media screen and (max-width: 375px) { 
+  #header-logo-job{
+    margin-left: -15px;
+    width: 40px;
+    height: 40px;
+    margin-top: -5px;
+  }
+  .jumbotron-line-job{
+    left: 20%;
+  }
+  .jumbotron-content-job{
+    margin-right:0;
+    margin-left: 0;
+  }
+  .jumbotron-job{
+    margin-top: 110px;
+  }
 }
