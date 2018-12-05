@@ -34,7 +34,7 @@ $(document).ready(function () {
     });
 });
 $(document).ready(function () {
-    $( "#support-logo" ).click(function() {
+    $( "#support-logo-service" ).click(function() {
       $( ".admin-chat-service" ).slideToggle( "slow" );
     });
 });

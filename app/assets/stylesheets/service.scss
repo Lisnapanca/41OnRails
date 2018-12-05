@@ -1,4 +1,4 @@
-.header{
+.header-service{
   background-color: #F8F8F8;
   height: 90px;
   border-bottom: 0.8px solid #e9e9e9;
@@ -172,7 +172,7 @@
   margin-top: 60px;
   font-family: 'Nunito';
 }
-.centered {
+.centered-service {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -197,7 +197,7 @@
   top:70%;
   left: 0;
 }
-#support-logo{
+#support-logo-service{
   width: 60px;
   height: 60px;
   background-color: white;
@@ -653,8 +653,170 @@ body{
   #blog-link{
     margin-right:0px;
   }
+  .navbar{
+    margin-top: 60px;
+    height: 45px;
+  }
+  .header-service{
+    height: 70px;
+  }
+  #logo-header{
+    margin-left: -15px;
+    width: 40px;
+    height: 40px;
+    margin-top: -5px;
+  }
+  .navbar-text{
+    font-size: 10px;
+  }
+  .jumbotron-service{
+    margin-top: 110px;
+    height: 470px;
+  }
+  .jumbotron-title {
+    font-size: 17px!important;
+    width: 100%;
+    margin-top: 0px;
+  }
+  .jumbotron-line-service{
+    top: 51%;
+    left: 35%;
+    width: 120px;
+  }
+  .jumbotron-content-service{
+    margin-left:20px;
+    margin-right:20px;
+    margin-top: -80px;
+    line-height: 20px;
+  }
+  #jumbotron-logo-service,#support-logo-service{
+    width: 40px;
+    height: 40px;
+    bottom: 10px;
+    right: 10px;
+    z-index: 999;
+  }
+  #subtitle{
+    font-size: 15px;
+  }
+  .what-we-do{
+    margin-top:50px;
+  }
+  .red-line-service{
+    margin-top: 10px;
+    width: 100px;
+
+  }
   #content-center{
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 15px;
+  }
+  .category-content{
     margin-right:0px;
-    margin-left:0px;
+    font-size: 8px;
+    line-height: 15px;
+  }
+  .category-text,.category-text-left{
+    font-size: 15px;
+    margin-top: -60px;
+  }
+  .blue-line-service{
+    margin-bottom: -20px;
+  }
+  #front-end-image {
+    width: 100%;
+    height: 100%;
+    float: left;
+    margin-left: 10px;
+    margin-top: -30px;
+  }
+  .category-content-left{
+    margin-left: 20px;
+    line-height: 15px;
+    font-size: 8px;
+    margin-right: 0px;
+  }
+  .category-text-left{
+    padding-top: 80px;
+    margin-left: 20px;
+  }
+  .margin-left-110{
+    margin-left:20px;
+  }
+  .green-line-service {
+    width: 120px;
+    margin-top: 10px;
+  }
+  #mobile-dev-image{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 0px;
+    float: right;
+    left: -15px;
+  }
+  #desktop-dev-text{
+    margin-top: 30px;
+  }
+  .yellow-line-service{
+    margin-top: 10px;
+    width: 120px;
+    margin-bottom: -35px;
+  }
+  #desktop-image-service{
+    position: relative;
+    margin-top: 0px;
+    width: 100%;
+    height: 100%;
+  }
+  #backend-dev-text{
+  }
+  .red-line-backend{
+    width: 100px;
+    position: relative;
+    right: 90px;
+    background-color: #ed5250;
+    height: 1px;
+  }
+  #project-based{
+    font-size: 15px;
+    margin-top: 15px;
+  }
+  #project-based-text-service{
+    line-height: 15px;
+    margin-right:20px;
+    margin-left: 20px;
+    font-size: 8px;
+    margin-top: 20px;
+  }
+  #backend-image{
+    width: 100%;
+    height: 100%;
+    margin-left: -15px;
+  }
+  .brown-line{
+    width: 100px;
+  }
+  .learn-more-button-service{
+    width: 100px;
+    height: 35px;
+    font-size: 8px;
+    margin-top: -35px;
+  }
+  #project-based-image-service{
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: -120px;
+  }
+  .content-project-based h4 {
+    line-height: 15px;
+    font-size: 8px;
+    position: relative;
+    left: 100%;
+    text-align: center;
+  }
+  .category-bar-service{
+    margin-top: 20px;
   }
 }
