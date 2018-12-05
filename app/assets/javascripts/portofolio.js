@@ -192,7 +192,7 @@ $(document).ready(function () {
     });
 });
 $(document).ready(function () {
-    $( "#support-logo" ).click(function() {
+    $( "#support-logo-portofolio" ).click(function() {
       $( ".admin-chat-portofolio" ).slideToggle( "slow" );
     });
 });

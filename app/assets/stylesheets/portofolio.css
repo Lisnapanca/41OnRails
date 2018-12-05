@@ -10,7 +10,7 @@ body{
   width: 100%;
   opacity: 0.9;
 }
-#header-logo{
+#header-logo-portofolio{
   width: 50px;
   height: 50px;
   margin-left: auto;
@@ -126,7 +126,7 @@ body{
   background-position: bottom;
   padding:0px;
 }
-#support-logo{
+#support-logo-portofolio{
   width: 60px;
   height: 60px;
   background-color: white;
@@ -226,7 +226,7 @@ body{
   margin-right: auto;
   outline: 0!important;
 }
-.content-bottom-text{
+.content-bottom-text-portofolio{
   color: white;
   text-align: center;
   font-weight: bold;
@@ -287,6 +287,7 @@ body{
   padding: 5px;
   width: 75px;
   margin-left: -5px;
+  z-index: 999;
 }
 .admin-chat-portofolio{
   max-width: 400px;
@@ -341,6 +342,77 @@ body{
 }
 @media screen and (max-width: 375px) { 
   #home-link{
+    margin-left: 0px;
+    font-size: 8px;
+  }
+  #blog-link{
+    margin-right:0px;
+  }
+  .navbar{
+    margin-top: 60px;
+    height: 45px;
+  }
+  .jumbotron-content-portofolio{
+    margin-right:0;
+    margin-left: 0;
+  }
+  .jumbotron-line-portofolio{
+    left: 20%;
+    top: 52%;
+  }
+  #hire-button{
+    left: 65px;
+  }
+  #header-logo-portofolio{
+    margin-left: -15px;
+    width: 40px;
+    height: 40px;
+    margin-top: -5px;
+  }
+  .portofolio-navbar{
     font-size: 10px;
+  }
+  .jumbotron-portofolio{
+    margin-top: 110px;
+    height: 475px;
+  }
+  #jumbotron-logo-portofolio,#support-logo-portofolio{
+    width: 40px;
+    height: 40px;
+    bottom: 10px;
+    right: 10px;
+    z-index: 999;
+  }
+  .logo-sosmed{
+    z-index: 999;
+  }
+  .jumbotron-title-portofolio{
+    font-size: 15px;
+  }
+  .centered-portofolio{
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%,-50%);
+  }
+  .purple-line{
+    margin-left: 26%;
+  }
+  .margin-340{
+    margin-right:20px;
+    margin-left: 20px;
+  }
+  .btn-filter-portofolio{
+    width: 100px;
+    font-size: 8px;
+  }
+  .content-bottom-text-portofolio{
+    font-size: 15px;
+  }
+  .back-top-portofolio{
+    padding-left: 4px;
+    left: 47%;
+    width: 25px;
+    height: 25px;
+    margin-top: -15px;
   }
 }

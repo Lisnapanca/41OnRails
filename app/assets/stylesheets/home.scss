@@ -575,6 +575,7 @@
   padding: 5px;
   width: 65px;
   margin-left: -5px;
+  z-index: 99;
 }
 .article-part{
   font-family: 'Nunito';
@@ -874,6 +875,10 @@
   }
   .logo-sosmed{
     width: 45px;
+    z-index: 999;
+  }
+  .size-30{
+    font-size: 15px;
   }
 }
 .container-fluid{

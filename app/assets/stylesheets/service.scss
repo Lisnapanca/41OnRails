@@ -604,6 +604,7 @@ body{
   padding: 5px;
   width: 75px;
   margin-left: -5px;
+  z-index: 999;
 }
 .copyright{
   font-size: 20px;
@@ -847,5 +848,125 @@ body{
   }
   .purple{
     margin-top: 0px;
+  }
+  #rails {
+    background: url('mini-grey.png') no-repeat 0 -12px;
+    width: 97px;
+    height: 61px;
+  }
+  #rails:hover {
+    background: url('mini-colorr.png') no-repeat -34px -51px;
+    width: 153px;
+    height: 95px;
+  }
+  #react {
+    background: url('mini-grey.png') no-repeat -107px -1px;
+    width: 98px;
+    height: 87px;
+  }
+  #react:hover {
+    background: url('mini-colorr.png') no-repeat -200px -33px;
+    width: 153px;
+    height: 136px;
+  }
+  #android {
+    background: url('mini-grey.png') no-repeat -228px 0;
+    width: 65px;
+    height: 98px;
+  }
+  #android:hover{
+    background: url('mini-color.png') no-repeat -390px -31px;
+    width: 121px;
+    height: 154px;
+  }
+  #ios {
+    background: url('mini-grey.png') no-repeat -340px 0;
+    width: 66px;
+    height: 80px;
+  }
+  #ios:hover {
+    background: url('mini-color.png') no-repeat -566px -31px;
+    width: 103px;
+    height: 126px;
+  }
+  #postgre {
+    background: url('mini-grey.png') no-repeat -440px -18px;
+    width: 93px;
+    height: 98px;
+  }
+  #postgre:hover {
+    background: url('mini-color.png') no-repeat -723px -60px;
+    width: 146px;
+    height: 153px;
+  }
+  #heroku {
+    background: url('mini-grey.png') no-repeat -15px -131px;
+    width: 69px;
+    height: 77px;
+  }
+  #heroku:hover {
+    background: url('mini-color.png') no-repeat -56px -238px;
+    width: 108px;
+    height: 120px;
+  }
+  #laravel {
+    background: url('mini-grey.png') no-repeat -111px -141px;
+    width: 98px;
+    height: 68px;
+  }
+  #laravel:hover {
+    background: url('mini-color.png') no-repeat -206px -254px;
+    width: 153px;
+    height: 105px;
+  }
+  #django {
+    background: url('mini-grey.png') no-repeat -234px -132px;
+    width: 71px;
+    height: 89px;
+  }
+  #django:hover {
+    background: url('mini-color.png') no-repeat -400px -239px;
+    width: 111px;
+    height: 139px;
+  }
+  #angular{
+    background: url('mini-grey.png') no-repeat -335px -137px;
+    width: 76px;
+    height: 81px;
+  }
+  #angular:hover {
+    background: url('mini-color.png') no-repeat -558px -246px;
+    width: 120px;
+    height: 129px;
+  }
+  #ionic{
+    background: url('mini-grey.png') no-repeat -441px -136px;
+    width: 84px;
+    height: 83px;
+  }
+  #ionic:hover {
+    background: url('mini-color.png') no-repeat -725px -245px;
+    width: 131px;
+    height: 130px;
+  }
+  #electron{
+    background: url('mini-grey.png') no-repeat -9px -244px;
+    width: 91px;
+    height: 98px;
+  }
+  #electron:hover {
+    background: url('mini-color.png') no-repeat -47px -415px;
+    width: 141px;
+    height: 153px;
+  }
+  #aws {
+    background: url('mini-grey.png') no-repeat -121px -252px;
+    width: 98px;
+    height: 73px;
+  }
+  #aws:hover {
+    background: url('mini-color.png') no-repeat -222px -427px;
+    width: 153px;
+    height: 115px;
   }
 }
