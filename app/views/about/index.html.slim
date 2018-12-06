@@ -14,27 +14,27 @@
 .container-fluid
   .navbar.navbar-about
     a#home-link.hvr-underline-from-center[href="home"]
-      h2
+      h2.navbar-text
         | Home
     a.hvr-underline-from-center[href="services"]
-      h2
+      h2.navbar-text
         | Services
     a.hvr-underline-from-center[href="portofolio"]
-      h2
+      h2.navbar-text
         | Portofolios
     a.hvr-underline-from-center[href="job"]
-      h2
+      h2.navbar-text
         | Jobs
     a.hvr-underline-from-center[href="about"]
-      h2
+      h2.navbar-text
         | About Us
     a.hvr-underline-from-center[href="contact"]
-      h2
+      h2.navbar-text
         | Contact
     a#blog-link.hvr-underline-from-center[href="article"]
-      h2
+      h2.navbar-text
         | Blog
-  .jumbotron-about
+  .jumbotron
     h2.jumbotron-title-about.size-30.centered.bold.title-nunito
       | Software Development Company in Indonesia
     hr.jumbotron-line
@@ -56,44 +56,44 @@
   h4#desc-team.text-center.margin-400.content-helvetica
     | We believe in every big project, there is solid and reliable people. Get to know our top-notch ruby on rails developers & team behind of every awesome product creations.
   .row
-    .col-md-6
+    .col-xs-6
       = image_tag "android-dev.png", class: "employee-profile"
-    .col-md-6.profile
+    .col-xs-6.profile
       h2.bold.size-30.title-nunito
         | Lisna Panca Wiguna
       hr.green-line-about.no-margin-left
-      h4.bold.title-nunito
+      h4.bold.title-nunito.font-12
         | Front-end
-      h4.content-helvetica
+      h4.content-helvetica.font-8
         | Lorem ipsum dolor sit amet, consectetur adipisicing elit
-      h4.bold.title-nunito
+      h4.bold.title-nunito.font-12
         | Technology
-      h4.content-helvetica
+      h4.content-helvetica.font-8
         | Lorem ipsum dolor sit amet, consectetur adipisicing elit
-      h4.bold.title-nunito
+      h4.bold.title-nunito.font-12
         | Follow Me on
       = image_tag "facebook-grey.png", class: "sosmed-image"
       = image_tag "linkedin-grey.png", class: "sosmed-image"
       = image_tag "instagram-grey.png", class: "sosmed-image"
   .row.purple-bar
-    .col-md-2
-    .col-md-2
+    .col-xs-2
+    .col-xs-2
       .arrow-up-about
       h3.bold.margin-bar
         | Employee Name
-    .col-md-2
+    .col-xs-2
       .arrow-up-about.another-triangle
       h3.bold.mar-top-10
         | Employee Name
-    .col-md-2
+    .col-xs-2
       .arrow-up-about.another-triangle
       h3.bold.mar-top-10
         | Employee Name
-    .col-md-2
+    .col-xs-2
       .arrow-up-about.another-triangle
       h3.bold.mar-top-10
         | Employee Name
-    .col-md-2
+    .col-xs-2
       .arrow-up-about.another-triangle
       h3.bold.mar-top-10
         | Employee Name
@@ -111,10 +111,9 @@
     a[href="#header"]
       span.glyphicon.glyphicon-arrow-up
   .row.footer
-    .col-md-6
+    .col-xs-12
       h4.bold.size-20
         | &copy Copyright 2018 41Studio All Right Reserved
-    .col-md-6
 .admin-chat-about
   #admin-chat.row
     .col-xs-12
@@ -124,17 +123,17 @@
         button.glyphicon.glyphicon-remove.close-button
       .body-chat
         .row.body-chat-container
-          .col-md-3
+          .col-xs-3
             = image_tag "allen.jpg", id: "admin-image"
-          .col-md-9
+          .col-xs-9
             .box-chat
               h4
                 | Hello, Can i help you?
         .typing-message
           .row
-            .col-md-8
+            .col-xs-8
               input#typing-text[type="text" name="typing" placeholder="Type your message..."]
-            .col-md-2
+            .col-xs-2
               = image_tag "clip.png", class: "typing-fitur margin-left5"
-            .col-md-2
+            .col-xs-2
               = image_tag "send.png", class: "typing-fitur"
