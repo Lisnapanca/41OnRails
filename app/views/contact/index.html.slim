@@ -14,25 +14,25 @@
 .container-fluid
   .navbar.contact-navbar
     a#home-link.hvr-underline-from-center[href="home"]
-      h2
+      h2.navbar-text
         | Home
     a.hvr-underline-from-center[href="service"]
-      h2
+      h2.navbar-text
         | Services
     a.hvr-underline-from-center[href="portofolio"]
-      h2
+      h2.navbar-text
         | Portofolios
     a.hvr-underline-from-center[href="job"]
-      h2
+      h2.navbar-text
         | Jobs
     a.hvr-underline-from-center[href="about"]
-      h2
+      h2.navbar-text
         | About Us
     a.hvr-underline-from-center[href="contact"]
-      h2
+      h2.navbar-text
         | Contact
     a#blog-link.hvr-underline-from-center[href="article"]
-      h2
+      h2.navbar-text
         | Blog
   .jumbotron-contact
     h2#contact-title.content-helvetica
@@ -42,7 +42,7 @@
         | Contact Info
       hr.blue-line-contact
       .row
-        .col-md-6
+        .col-xs-6
           = image_tag "clock.png", id: "clock-image"
           h4#time.text-info.color-black
             | 8:00 AM - 5:00 PM
@@ -52,7 +52,7 @@
           = image_tag "call-2.png", id: "call2-image"
           h4#call2.text-info
             | +62 22 2066 0068
-        .col-md-6
+        .col-xs-6
           = image_tag "email.png", id: "email-image"
           h4#email-text.content-helvetica
             | hello@41studio.com
@@ -83,7 +83,7 @@
     button.btn-default.transparent.btn-filter.red-button
       | Say Hello
   .row
-    .col-md-6
+    .col-xs-6
       form.form-contact.content-helvetica
         input.form-data[type="text" name="name" placeholder="Name"]
         br
@@ -101,7 +101,7 @@
         br
         br
         input.form-data[type="text" name="find" placeholder="Where You Find Us"]
-    .col-md-6
+    .col-xs-6
       form.content-helvetica
         input.form-data[type="text" name="plan" placeholder="Plan to Start (Optional)"]
         br
@@ -134,23 +134,23 @@
           input[type="checkbox" checked="checked"]
           span#design-checkmark.checkmark
   .row.content-helvetica
-    .col-md-2
-    .col-md-8
+    .col-xs-2
+    .col-xs-8
       form
         input.form-data.message[type="text" name="message" placeholder="Tell us in short about your project"]
         br
         br
-    .col-md-2
+    .col-xs-2
   .row
-    .col-md-6
+    .col-xs-6
       form.form-contact
         input.form-data[type="text" name="attachment" placeholder="Attachment"]
-    .col-md-6
+    .col-xs-6
       .row.button-contact.title-nunito
-        .col-md-6
+        .col-xs-6
           button.btn-left
             | Browse File
-        .col-md-6
+        .col-xs-6
           button.btn-right
             | SUBMIT
   button.back-top
@@ -158,10 +158,10 @@
     a[href="#header"]
       span.glyphicon.glyphicon-arrow-up
   .row.footer
-    .col-md-6
+    .col-xs-6
       h4.bold.size-20.title-nunito
         | &copy Copyright 2018 41Studio All Right Reserved
-    .col-md-6
+    .col-xs-6
   .admin-chat-contact
     #admin-chat.row
       .col-xs-12
@@ -171,17 +171,17 @@
           button.glyphicon.glyphicon-remove.close-button
         .body-chat
           .row.body-chat-container
-            .col-md-3
+            .col-xs-3
               = image_tag "allen.jpg", id: "admin-image"
-            .col-md-9
+            .col-xs-9
               .box-chat
                 h4
                   | Hello, Can i help you?
           .typing-message
             .row
-              .col-md-8
+              .col-xs-8
                 input#typing-text[type="text" name="typing" placeholder="Type your message..."]
-              .col-md-2
+              .col-xs-2
                 = image_tag "clip.png", class: "typing-fitur margin-left5"
-              .col-md-2
+              .col-xs-2
                 = image_tag "send.png", class: "typing-fitur"
