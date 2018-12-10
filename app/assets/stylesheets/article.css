@@ -116,7 +116,7 @@
   border-color:#ffa726;
   color: #ffa726;
 }
-.purple{
+.purple-article{
   border-color:#7e57c2;
   color: #7e57c2;
 }
@@ -181,4 +181,89 @@
   padding-left: 0px;
   padding-right: 0px;
   overflow: hidden;
+}
+@media screen and (max-width: 375px) { 
+  #categories-text{
+    font-size: 15px;
+    margin-left: -5px;
+  }
+  .main-content{
+    margin-top: 50px;
+  }
+  .main-content .col-xs-2{
+    margin-left: -20px;
+  }
+  .main-content .col-xs-2 .title{
+    font-size: 10px;
+    width: 300%;
+    margin-top: 55px;
+  }
+  .main-content .col-xs-6{
+    margin-left: 15px;
+  }
+  .article-content1{
+    margin: 20px 0px 20px -17px;
+    height: 92px;
+  }
+  .title-nunito{
+    font-size: 12px;
+    margin-left: -15px;
+  }
+  .content-helvetica{
+    font-size: 8px;
+    margin-left: -15px;
+  }
+  .admin-image-article, .date-image-article{
+    height: 10px;
+    margin-top: 10px;
+    margin-left: -15px;
+  }
+  .blue-line{
+    margin-left: 20px;
+  }
+  .admin-name-article, .date-text-article{
+    margin-left: -2px;
+    margin-top: -11px;
+    font-size: 10px;
+  }
+  .big-article{
+    height: 215px;
+    margin-left: -15px;
+    margin-bottom: 25px;
+  }
+  .categories-button{
+    width: 65px;
+    margin-left: -50px;
+    height: 20px;
+  }
+  .first-content{
+    margin-bottom: -275px;
+  }
+  .previous-button{
+    width: 50px;
+    font-size: 10px;
+    padding: 2px;
+    height: 20px;
+    margin-top: 25px;
+    margin-bottom: -20px;
+  }
+  #logotype {
+    height: 15px;
+    margin-left: 10px;
+    margin-top: 45px;
+  }
+  .footer-article{
+    height: 100px;
+  }
+  .sosmed-logo {
+    width: 15px;
+    margin-left: -20px;
+    margin-top: 45px;
+  }
+  .big-article{
+    margin-top: 180px;
+  }
+  .last-big-article{
+    margin-top: 20px;
+  }
 }
