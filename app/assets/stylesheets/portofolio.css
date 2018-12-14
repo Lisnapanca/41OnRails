@@ -215,7 +215,7 @@ body{
   line-height: 25px;
   font-size: 15px;
 }
-.purple,.purple:hover{
+.purple-portofolio,.purple-portofolio:hover{
   border-color:#7d53c8;
   color: #7d53c8;
 }
@@ -323,6 +323,21 @@ body{
   margin-top: -15px;
   margin-left: 0px;
 }
+#legalmate-arrow{
+  margin-left:20px;
+}
+#funways-arrow{
+  margin-left:40px;
+}
+#facilgo-arrow{
+  margin-left:35px;
+}
+#boatflow-arrow{
+  margin-left:40px;
+}
+#lodggy-arrow{
+  margin-left:20px;
+}
 #pricehub-arrow,#legalmate-arrow,#funways-arrow,#facilgo-arrow,#boatflow-arrow,#lodggy-arrow{
   display: none;
 }
@@ -340,6 +355,9 @@ body{
   padding-right: 0px;
   overflow: hidden;
 }
+.visit-site-line{
+    width: 35%;
+  }
 @media screen and (max-width: 375px) { 
   #home-link{
     margin-left: 0px;
@@ -361,7 +379,7 @@ body{
     top: 52%;
   }
   #hire-button{
-    left: 65px;
+    left: 20.5%;
   }
   #header-logo-portofolio{
     margin-left: -15px;
@@ -390,11 +408,11 @@ body{
     font-size: 15px;
   }
   .centered-portofolio{
-    left: 50%;
+    left: 54%;
     width: 100%;
     transform: translate(-50%,-50%);
   }
-  .purple-line{
+  .purple-portofolio-line{
     margin-left: 26%;
   }
   .margin-340{
@@ -402,11 +420,16 @@ body{
     margin-left: 20px;
   }
   .btn-filter-portofolio{
-    width: 100px;
+    height: 25px;
+    padding: 0px;
+    width: 150px;
+    margin-left: 0px;
     font-size: 8px;
   }
   .content-bottom-text-portofolio{
     font-size: 15px;
+    width: 80%;
+    margin-left: 35px;
   }
   .back-top-portofolio{
     padding-left: 4px;
@@ -418,8 +441,45 @@ body{
   .desc h5{
     font-size: 8px;
     line-height: 15px;
+    width: 100%;
   }
   .desc{
     margin-left: 0;
+  }
+  .box-portofolio{
+    width: 165px;
+    height: 200px;
+  }
+  .purple-portofolio-line{
+    margin-left:0;
+  }
+  .yellow-line-portofolio{
+    margin-left: -16px;
+  }
+  .category-bar-portofolio{
+    margin-top: 20px;
+  }
+  .visit-site{
+    position: relative;
+    right: 9%;
+    width: 75px;
+    height: 25px;
+    padding: 6px;
+  }
+  .hishop-text{
+    margin-left: -145px;
+    margin-top: 22px;
+  }
+  .hishop-text,.pricehub-text,.legalmate-text,.funways-text,.facilgo-text,.boatflow-text,.lodggy-text{
+    font-size: 10px!important;
+  }
+  .legal-mate-text{
+    margin-left: -59px;
+  }
+  .arrow-up-portofolio{
+    margin-left:-70px;
+  }
+  .button-filter-portofolio{
+    margin:25px;
   }
 }

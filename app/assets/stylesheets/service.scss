@@ -678,6 +678,7 @@ body{
     font-size: 17px!important;
     width: 100%;
     margin-top: 0px;
+    padding-left: 30px;
   }
   .jumbotron-line-service{
     top: 51%;
@@ -706,7 +707,8 @@ body{
   .red-line-service{
     margin-top: 10px;
     width: 100px;
-
+    position: relative;
+    right: 2%;
   }
   #content-center{
     margin-left: 20px;
@@ -717,13 +719,17 @@ body{
     margin-right:0px;
     font-size: 8px;
     line-height: 15px;
+    margin-left:10px;
   }
   .category-text,.category-text-left{
     font-size: 15px;
     margin-top: -60px;
+    margin-left: 9px;
+
   }
   .blue-line-service{
     margin-bottom: -20px;
+    margin-left: 10px;
   }
   #front-end-image {
     width: 100%;
@@ -764,6 +770,7 @@ body{
     margin-top: 10px;
     width: 120px;
     margin-bottom: -35px;
+    margin-left: 10px;
   }
   #desktop-image-service{
     position: relative;
@@ -844,7 +851,7 @@ body{
     margin-right: 20px;
   }
   .purple-line-service{
-    margin-left: 36%;
+    margin-left: 34%;
   }
   .purple{
     margin-top: 0px;
@@ -853,123 +860,134 @@ body{
     font-size: 12px;
   }
   #rails {
-    background: url('mini-grey.png') no-repeat 0 -12px;
-    width: 97px;
-    height: 61px;
+    background: url('grey-logo') no-repeat 0 -2px;
+    width: 77px;
+    height: 48px;
+    margin-left: -15px;
   }
   #rails:hover {
-    background: url('mini-colorr.png') no-repeat -34px -51px;
-    width: 153px;
-    height: 95px;
+    background: url('color-logo.png') no-repeat 0 -3px;
+    width: 77px;
+    height: 48px;
+    margin-left: -15px;
   }
   #react {
-    background: url('mini-grey.png') no-repeat -107px -1px;
-    width: 98px;
-    height: 87px;
+    background: url('grey-logo') no-repeat -181px -5px;
+    width: 54px;
+    height: 48px;
   }
   #react:hover {
-    background: url('mini-colorr.png') no-repeat -200px -33px;
-    width: 153px;
-    height: 136px;
+    background: url('color-logo.png') no-repeat -181px -6px;
+    width: 54px;
+    height: 48px;
   }
   #android {
-    background: url('mini-grey.png') no-repeat -228px 0;
-    width: 65px;
-    height: 98px;
+    background: url('grey-logo') no-repeat -361px -5px;
+    width: 42px;
+    height: 48px;
   }
   #android:hover{
-    background: url('mini-color.png') no-repeat -390px -31px;
-    width: 121px;
-    height: 154px;
+    background: url('color-logo') no-repeat -360px -2px;
+    width: 42px;
+    height: 48px;
   }
   #ios {
-    background: url('mini-grey.png') no-repeat -340px 0;
-    width: 66px;
-    height: 80px;
+    background: url('grey-logo') no-repeat -529px 0;
+    width: 39px;
+    height: 48px;
   }
   #ios:hover {
-    background: url('mini-color.png') no-repeat -566px -31px;
-    width: 103px;
-    height: 126px;
+    background: url('color-logo') no-repeat -529px 0;
+    width: 39px;
+    height: 48px;
   }
   #postgre {
-    background: url('mini-grey.png') no-repeat -440px -18px;
-    width: 93px;
-    height: 98px;
+    background: url('grey-logo') no-repeat -704px -3px;
+    width: 46px;
+    height: 48px;
   }
   #postgre:hover {
-    background: url('mini-color.png') no-repeat -723px -60px;
-    width: 146px;
-    height: 153px;
+    background: url('color-logo') no-repeat -704px -3px;
+    width: 46px;
+    height: 48px;
   }
   #heroku {
-    background: url('mini-grey.png') no-repeat -15px -131px;
-    width: 69px;
-    height: 77px;
+    background: url('grey-logo') no-repeat -19px -203px;
+    width: 43px;
+    height: 48px;
+    margin-left: -15px;
   }
   #heroku:hover {
-    background: url('mini-color.png') no-repeat -56px -238px;
-    width: 108px;
-    height: 120px;
+    background: url('color-logo') no-repeat -19px -203px;
+    width: 43px;
+    height: 48px;
+    margin-left: -15px;
   }
   #laravel {
-    background: url('mini-grey.png') no-repeat -111px -141px;
-    width: 98px;
-    height: 68px;
+    background: url('grey-logo') no-repeat -179px -212px;
+    width: 70px;
+    height: 48px;
+    margin-left: -15px;
   }
   #laravel:hover {
-    background: url('mini-color.png') no-repeat -206px -254px;
-    width: 153px;
-    height: 105px;
+    background: url('color-logo') no-repeat -179px -212px;
+    width: 70px;
+    height: 48px;
+    margin-left: -15px;
   }
   #django {
-    background: url('mini-grey.png') no-repeat -234px -132px;
-    width: 71px;
-    height: 89px;
+    background: url('grey-logo') no-repeat -367px -214px;
+    width: 39px;
+    height: 48px;
   }
   #django:hover {
-    background: url('mini-color.png') no-repeat -400px -239px;
-    width: 111px;
-    height: 139px;
+    background: url('color-logo') no-repeat -367px -214px;
+    width: 39px;
+    height: 48px;
   }
   #angular{
-    background: url('mini-grey.png') no-repeat -335px -137px;
-    width: 76px;
-    height: 81px;
+    background: url('grey-logo') no-repeat -526px -216px;
+    width: 45px;
+    height: 47px;
   }
   #angular:hover {
-    background: url('mini-color.png') no-repeat -558px -246px;
-    width: 120px;
-    height: 129px;
+    background: url('color-logo') no-repeat -526px -216px;
+    width: 45px;
+    height: 47px;
   }
   #ionic{
-    background: url('mini-grey.png') no-repeat -441px -136px;
-    width: 84px;
-    height: 83px;
+    background: url('grey-logo') no-repeat -698px -215px;
+    width: 48px;
+    height: 48px;
   }
   #ionic:hover {
-    background: url('mini-color.png') no-repeat -725px -245px;
-    width: 131px;
-    height: 130px;
+    background: url('color-logo') no-repeat -698px -215px;
+    width: 48px;
+    height: 48px;
   }
   #electron{
-    background: url('mini-grey.png') no-repeat -9px -244px;
-    width: 91px;
-    height: 98px;
+    background: url('grey-logo') no-repeat -26px -397px;
+    width: 45px;
+    height: 48px;
+    margin-left: -15px;
   }
   #electron:hover {
-    background: url('mini-color.png') no-repeat -47px -415px;
-    width: 141px;
-    height: 153px;
+    background: url('color-logo') no-repeat -26px -397px;
+    width: 45px;
+    height: 48px;
+    margin-left: -15px;
   }
   #aws {
-    background: url('mini-grey.png') no-repeat -121px -252px;
-    width: 98px;
-    height: 73px;
+    background: url('grey-logo') no-repeat -198px -390px;
+    width: 63px;
+    height: 48px;
   }
   #aws:hover {
-    background: url('mini-color.png') no-repeat -222px -427px;
-    width: 153px;
-    height: 115px;
+    background: url('color-logo') no-repeat -198px -390px;
+    width: 63px;
+    height: 48px;
+  }
+  .arrow-up-service{
+    margin-left:75px;
   }
 }

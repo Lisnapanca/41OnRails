@@ -387,7 +387,7 @@ body{
   .centered{
     font-size: 15px;
     width: 100%;
-    left: 46%;
+    left: 51%;
   }
   #jumbotron-logo-job,#support-logo{
     width: 40px;
@@ -402,6 +402,7 @@ body{
   .hiring-text {
     font-size: 15px;
     margin-top: 50px;
+    margin-left: 0px;
   }
   .yellow-line-job{
     margin-left: 33%;
