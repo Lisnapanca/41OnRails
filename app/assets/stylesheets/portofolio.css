@@ -379,7 +379,7 @@ body{
     top: 52%;
   }
   #hire-button{
-    left: 20.5%;
+    left: 40.5%;
   }
   #header-logo-portofolio{
     margin-left: -15px;
@@ -466,10 +466,6 @@ body{
     height: 25px;
     padding: 6px;
   }
-  .hishop-text{
-    margin-left: -145px;
-    margin-top: 22px;
-  }
   .hishop-text,.pricehub-text,.legalmate-text,.funways-text,.facilgo-text,.boatflow-text,.lodggy-text{
     font-size: 10px!important;
   }
@@ -477,9 +473,46 @@ body{
     margin-left: -59px;
   }
   .arrow-up-portofolio{
-    margin-left:-70px;
+    margin-left:-90px;
   }
   .button-filter-portofolio{
     margin:25px;
+  }
+  .margin-left--75{
+    margin-left:-145px;
+  }
+  .hishop-text{
+    margin-left: -180px;
+    margin-top: 22px;
+  }
+  .margin-left-35 {
+    margin-left: -90px;
+  }
+  .funways-text{
+    margin-left: -35px;
+  }
+  .facilgo-text{
+    margin-left: -10px;
+  }
+  .boatflow-text{
+    margin-left:5px;
+  }
+  .lodggy-text{
+    margin-left: 30px;
+  }
+  #pricehub-arrow{
+    margin-left: -72px;
+  }
+  #legalmate-arrow{
+    margin-left: -43px;
+  }
+  #funways-arrow{
+    margin-left:-13px;
+  }
+  #facilgo-arrow {
+    margin-left: 7px;
+  }
+  #lodggy-arrow {
+    margin-left: -5px;
   }
 }
