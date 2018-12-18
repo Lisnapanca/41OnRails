@@ -321,6 +321,8 @@ body{
   #title {
     font-size: 15px;
     margin-top: 50px;
+    margin-left: 5px;
+    margin-bottom: -10px;
   }
   .about-desc {
     line-height: 15px;
@@ -366,8 +368,8 @@ body{
   .sosmed-image{
     margin-top: 3px;
     width: 15px;
-    margin-right: 20px;
-    margin-left: -5px;
+    margin-right: 35px;
+    margin-left: -20px;
   }
   #content-bottom {
     line-height: 15px;
@@ -383,5 +385,38 @@ body{
   }
   .footer{
     padding-top: 30px;
+  }
+  .no-margin-left {
+    margin-left: -15px;
+  }
+  .employee-name{
+    font-size: 10px;
+    margin-left:-70px;
+  }
+  #employee-name1{
+    font-size: 8px;
+    margin-left: -70px;
+  }
+  #employee-name2{
+    margin-left: -57px;
+    font-size: 8px;
+  }
+  #employee-name3{
+    margin-left: -45px;
+    width: 190%;
+    font-size: 8px;
+  }
+  #employee-name4{
+    width: 190%;
+    margin-left: -30px;
+    font-size: 8px;
+  }
+  #employee-name5{
+    width: 190%;
+    margin-left: -20px;
+    font-size: 8px;
+  }
+  .arrow-up-button{
+    margin-left: -47px;
   }
 }
